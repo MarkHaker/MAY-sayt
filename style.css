@@ -1,0 +1,27 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 35px; /* Размер основного шрифта в <p></p>  */
+    background-color: #67e9e2d2; /* Цвет фона веб-страницы */
+    color: #245847; /* Цвет основного текста */ 
+}
+h1 {
+    color: #000000; /* Цвет заголовка */
+    font-size: 50px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+img:hover {
+    animation: sayz 3s infinite;
+    width: 500px; /* ��ирина изображения */
+    height: 200px; /* Высота изображения автоматически подстраивается под ширину */
+}
+img {
+    width: 300px; /* ��ирина изображения */
+    height: auto; /* Высота изображения автоматически подстраивается под ширину */
+}
+@keyframes sayz {
+     0% {width: 300px;  height: auto;}
+
+     50% {width: 400px; height: auto;}
+
+     100% {width: 300px; height: auto;}
+}
